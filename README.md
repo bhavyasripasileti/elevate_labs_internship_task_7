@@ -5,17 +5,17 @@
 This project uses Python and SQLite to generate a simple sales summary.
 You will:
 
-Create or use a small SQLite database
+- Create or use a small SQLite database
 
-Run SQL queries inside Python
+- Run SQL queries inside Python
 
-Load results using Pandas
+- Load results using Pandas
 
-Display the summary
+- Display the summary
 
-Generate a bar chart using Matplotlib
+- Generate a bar chart using Matplotlib
 
-This task demonstrates basic data analysis and visualization workflow.
+- This task demonstrates basic data analysis and visualization workflow.
 
 📂 Project Structure
 │
@@ -31,63 +31,53 @@ Make sure Python 3.x is installed.
 
 Required libraries:
 
-pandas
-matplotlib
-sqlite3 (built-in)
-
+- pandas
+- matplotlib
+- sqlite3 (built-in)
 
 Install missing libraries using:
 
-pip install pandas matplotlib
+- pip install pandas matplotlib
 
 ▶️ How to Run the Script
 
-Open a terminal inside the project folder.
+- Open a terminal inside the project folder.
 
-Run the main Python script:
+- Run the main Python script:
 
-python sales_summary.py
+- python sales_summary.py
 
 
 This will:
 
-Connect to the SQLite database
+- Connect to the SQLite database
 
-Execute SQL queries
+- Execute SQL queries
 
-Print the DataFrame output
+- Print the DataFrame output
 
-Display a bar chart
+- Display a bar chart
 
-Save the chart as sales_chart.png
-
-🗄️ Database Setup (Optional)
-
-If needed, you can recreate the database using:
-
-python create_db.py
+- Save the chart as sales_chart.png
 
 
-This script generates the sales_data file and inserts sample product sales.
 
 📊 Output
 
 The script will produce a bar chart titled "Revenue by Product", showing revenue for each item based on the SQL results.
 
-This chart is also saved as:
-
-sales_chart.png
+This chart is also saved as: sales_chart.png
 
 ✨ Conclusion
 
-This project demonstrates:
+- This project demonstrates:
 
-Python + SQLite integration
+- Python + SQLite integration
 
-Basic SQL querying
+- Basic SQL querying
 
-Data analysis using Pandas
+- Data analysis using Pandas
 
-Data visualization with Matplotlib
+- Data visualization with Matplotlib
 
-Clean project organization suitable for GitHub submission
+- Clean project organization suitable for GitHub submission
